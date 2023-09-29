@@ -1,0 +1,48 @@
+#container{
+    background-color: beige;
+    width: 600px;
+}
+#baner{
+    text-align: center;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+#lewy{
+    background-color: aliceblue;
+    height: 220px;
+    width: 300px;
+    float: left;
+}
+#prawy{
+    background-color: aqua;
+    height: 220px;
+    width: 300px;
+    float: left;
+}
+#dolny{
+    clear: both;
+    text-align: center;
+    height: 300px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+#ol1{
+    margin-left: 40px;
+}
+
+.klient_pracownik{
+    float: left;
+    background-color: beige;   
+    text-align: left;
+    width: 200px;
+}
+
+#stopka{
+    text-align: left;
+}
