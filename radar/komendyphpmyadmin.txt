@@ -1,0 +1,18 @@
+1. CREATE DATABASE radar;
+2. CREATE TABLE zdarzenia(
+    idZdarzenia int AUTO_INCREMENT,
+    numer varchar(100) not null,
+    predkosc int not null,
+    data date,
+    czas time,
+    PRIMARY KEY(idZdarzenia)
+    )
+    
+3. INSERT INTO zdarzenia(numer, predkosc, data, czas)
+VALUES('WPR 1234',72,"2023-09-02", "21:37:34"),
+('WGM 4587', 78, "2023-09-02", "21:38:48"),
+('WGM 1223', 65, "2023-10-02", 21:38:59),
+('WGT 2233', 67,"2023-10-02","21:39:14"),
+('EOP 8900', 67,"2023-10-02","21:39:24"),
+('EOP 8904', 62,"2023-10-02","21:39:38"),
+('WGT 8945', 69,"2023-10-02","21:39:50")
