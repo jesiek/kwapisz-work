@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Zdarzenia Drogowe</title>
+    <meta charset="utf-8">
+    <title>Odczytaj</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-<div id="dolny">
-            <div class="klient_pracownik">
-                <h4>Zdarzenia</h4>
-                <form method="POST" action="zdarzenia.php">
-                    <label for="name">Imię</label>
-                    <input type="text" name="imie" /></br>
-                    <label for="surname">Nazwisko</label>
-                    <input type="text" name="nazwisko"></br>
-                </form>
-            </div>
+<div class="baner">
+        <h4>Jan Kaczmarek 4TIP</h4>
+</div>
+        <div id="container">
+        <fieldset id="f1">
+            <legend>Zdarzenia</legend>
+            <form method="POST" action="wydarzenia.php">
+                <label> Data od:</label>
+            <input type="date" name="data1" ></input></br>
+            <label> Data do:</label>
+            <input type="date" name="data2" ></input></br>
+
+        <input type="submit" value="Pokaż"/>
+
+
+    </fieldset>
+    </div>
+
 </body>
 </html>
